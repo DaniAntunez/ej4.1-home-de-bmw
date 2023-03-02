@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text__white {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__menu {
+    width: 60%;
+    height: 70px;
+    box-shadow: 0px 1px 0px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav__menu__options__option {
+    padding: 10px;
+}
+
+.nav__menu__icons__icon {
+    height: 20px;
+    padding: 10px;
+}
+
+.nav__logo__imagen {
+    height: 70px;
+}
+
+.portada {
+    margin: 0px 0px 5px 50px;
+}
+
+.portada__button {
+    background-color: blue;
+    border: none;
+    padding: 10px 70px 10px 70px;
+    font-size: 10px;
+}
+
