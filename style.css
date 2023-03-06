@@ -106,7 +106,7 @@ main {
     justify-content: space-between;
 }
 
-.series__tarjetas a, .opciones__tarjetas__texto, .opciones__tarjetas a, .media a, .contacta__tarjeta p, .footer__bmw {
+.series__tarjetas__precio, .series__tarjetas a, .opciones__tarjetas__texto, .opciones__tarjetas a, .media a, .contacta__tarjeta p, .footer__bmw {
     font-size: 10px;
 }
 
@@ -117,6 +117,16 @@ main {
 
 .series__tarjetas__configurar, .footer__menu__listado, .footer__menu__listado ul {
     padding-top: 10px;
+}
+
+.infoBoton {
+    border-radius: 50%;
+    border-style: none;
+    background-color: transparent;
+}
+
+.infoImg {
+    height: 10px;
 }
 
 .opciones__tarjetas, .media__tarjeta {
