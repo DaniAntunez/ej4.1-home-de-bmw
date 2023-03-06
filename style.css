@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .fb {
     font-weight: bold;
 }
@@ -64,10 +68,13 @@ nav {
     font-size: 10px;
 }
 
-main {
+main, .footer__menu, .footer__bmw {
     padding: 50px 200px 50px 200px;
     display: flex;
     flex-wrap: wrap;
+}
+
+main {
     flex-direction: column;
 }
 
@@ -100,7 +107,7 @@ main {
     justify-content: space-between;
 }
 
-.series__tarjetas a, .opciones__tarjetas__texto, .opciones__tarjetas a, .media a, .contacta__tarjeta p {
+.series__tarjetas a, .opciones__tarjetas__texto, .opciones__tarjetas a, .media a, .contacta__tarjeta p, .footer__bmw {
     font-size: 10px;
 }
 
@@ -109,7 +116,7 @@ main {
     padding-bottom: 40px;
 }
 
-.series__tarjetas__configurar {
+.series__tarjetas__configurar, .footer__menu__listado, .footer__menu__listado ul {
     padding-top: 10px;
 }
 
@@ -144,4 +151,33 @@ main {
 .contacta__tarjeta img {
     width: 30px;
     height: 30px;
+}
+
+.footer__menu {
+    background-color: rgb(189, 188, 188);
+    flex-direction: column;
+}
+
+.footer__menu__listado {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linea {
+    box-shadow: 0px 1px 0px rgb(95, 94, 94);
+}
+
+.linea p {
+    color: rgb(189, 188, 188);
+}
+
+.footer__bmw {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__bmw a {
+    margin-right: 15px;
 }
