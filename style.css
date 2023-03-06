@@ -78,9 +78,8 @@ main {
     flex-direction: column;
 }
 
-.series {
+.series__menu {
     box-shadow: 0px 1px 0px rgb(189, 188, 188);
-    height: 70px;
     padding-bottom: 10px;
 }
 
